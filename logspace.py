@@ -8,7 +8,6 @@ np.random.seed(4)
 random.seed(4)
 
 def eexp(x):
-#    if x == LOGZERO:
     if math.isnan(x):
         return 0
     else:
